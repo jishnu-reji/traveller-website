@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  background: linear-gradient(rgba(18, 17, 17, 0.592), rgba(21, 20, 20, 0.45)),
+    /* bottom, image */ url(./assets/banimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 30%;
+  height: 100vh;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.r1 a {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.navbar a:hover,.ban h1:hover{
+  color: yellow;
+}
+
+.ban h1{
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+}
+.ban p{
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+}
+.links a{
+  text-decoration: none;
+  color: white;
+}
+.banner button{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(76, 104, 244);
+  color: white;
+  font-weight: 800;
+}
+.banner button:hover{
+  color: rgb(76, 104, 244);
+  background-color: white;
+}
+.ic{
+  color: yellow;
+ 
+}
+.b1 h1{
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+}
+.cc img{
+  width: 100%;
+  height: 300px;
+}
+.cc img:hover{
+  transform: scale(1.04);
+}
+.dd h3{
+  font-size: 40px;
+  font-family: "Protest Riot", sans-serif;
+}
+.dd img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.ee img{
+  width: 100%;
+}
+.ee h2{
+  font-size: 50px;
+}
+.bb1{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(221, 241, 69);
+}
+.ff h2{
+  font-size: 50px;
+  font-weight: 800;
+}
+.ff{
+  color: white;
+}
+.hh1{
+  font-size: 50px;
+  font-weight: 500;
+}
+.line{
+  border-top: 2px solid grey;
+  width: 100%;
+}
